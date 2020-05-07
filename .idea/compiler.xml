@@ -9,6 +9,8 @@
         <module name="basic" />
         <module name="java" />
         <module name="mq" />
+        <module name="mysql" />
+        <module name="spring" />
         <module name="thread" />
       </profile>
     </annotationProcessing>
@@ -16,6 +18,8 @@
       <module name="basic" target="1.8" />
       <module name="java" target="1.8" />
       <module name="mq" target="1.8" />
+      <module name="mysql" target="1.8" />
+      <module name="spring" target="1.8" />
       <module name="thread" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -24,6 +28,8 @@
       <module name="basic" options="-parameters" />
       <module name="java" options="-parameters" />
       <module name="mq" options="-parameters" />
+      <module name="mysql" options="-parameters" />
+      <module name="spring" options="-parameters" />
       <module name="thread" options="-parameters" />
     </option>
   </component>
