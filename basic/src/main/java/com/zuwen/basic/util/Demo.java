@@ -8,8 +8,25 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public class Demo {
     public static void main(String[] args) {
-        Random random = new Random();
-        int a = random.nextInt(10);
-        System.out.println(a);
+        System.out.println(test2());
+    }
+
+    private static int test() {
+        int a = 0;
+        try {
+            a = 10;
+            return a;
+        }finally {
+            a = 5;
+        }
+    }
+    private static Integer test2() {
+        Integer a = 0;
+        try {
+            a = 10;
+            return a;
+        }finally {
+            a = 5;
+        }
     }
 }
